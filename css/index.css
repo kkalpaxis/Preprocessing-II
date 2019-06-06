@@ -241,6 +241,7 @@ header nav a {
   padding-left: 1%;
 }
 .home .content-section .img-content img {
+  width: 100%;
   border-radius: 10px;
 }
 @media (max-width: 500px) {
@@ -279,6 +280,7 @@ header nav a {
   margin: 0 auto 30px;
 }
 .home .content-destination img {
+  width: 100%;
   border-radius: 10px;
 }
 @media (max-width: 500px) {
