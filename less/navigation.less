@@ -1,1 +1,41 @@
 // Navigation Styles here
+
+@padding: 20px;
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: @padding;
+    padding-bottom: @padding;
+    width: 55%;
+    margin-left: 22.5%;
+    border-bottom: 2px dashed @navigation-border;
+
+    nav{
+        padding-top: @padding * 0.75;
+    }
+
+    nav a{
+        padding: @padding * 1.25;
+        font-size: 16px;
+        color: black;
+        text-decoration: none;  
+    }
+
+    @media @mobile{
+        flex-direction: column;
+        width: 100%;
+        margin-left: -0.001%;
+
+        h1{
+           text-align: center; 
+        }
+
+        nav{
+            text-align: center;
+        }
+    }
+}
+
+
+
